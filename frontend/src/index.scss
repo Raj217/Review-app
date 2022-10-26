@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap'); 
+$bgColor: #191919;
+$lightGray: #939393;
+$white: #FFF;
+$paddingHorizontal: 5vw;
+$paddingVertical: 2vh;
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:export {
+    bgColor: $bgColor;
+    lightGray: $lightGray;
+    white: $white;
+    paddingHorizontal: $paddingHorizontal;
+    paddingVertical: $paddingVertical;
+}
